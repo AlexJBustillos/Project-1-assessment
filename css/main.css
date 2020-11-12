@@ -1,0 +1,38 @@
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input {
+    width: 85px;
+    height: 45px;
+    text-align: center;
+}
+
+button {
+    width: 45px;
+    height: 45px;
+    border: darkgray;
+    color: white;
+    background-color: darkgray;
+}
+.count {
+    font-size: 45px;
+    font-style: oblique;
+    text-align: center;
+}
+.label {
+    font-size: 45px;
+    color: black;
+}
+.add:hover {
+    background-color: white;
+    color: darkgray;
+}
